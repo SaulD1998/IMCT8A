@@ -2,8 +2,12 @@
 using namespace std;
 int main(){
 	int x;
-	cin>>x;
-cout<<"Diseñar un diagrama que imrpima los primeros "<<x<<" numeros enteros"<<endl;
+for(int i=1;i<=100;i++){
+
+
+cout<<i<<endl;
+
+}
 	return 0;
 
 }

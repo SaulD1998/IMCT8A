@@ -1,10 +1,21 @@
 #include <iostream>
 using namespace std;
 int main(){
-int Sp;
-int Si;
+int Sp=0;
+int Si=0;
+
+for(int i=1; i<=200; i++){
+
+	if (i%2==0){
+	Sp+=i;
+	}
+	else{
+	Si+=i;
+	}
+}
+
 cout<<"La suma de los pares es: "<<Sp<<endl;
-cout<<"EL producto de los pares es: "<<Si<<endl;
+cout<<"La suma de los impares es: "<<Si<<endl;
 
 return 0;
 
