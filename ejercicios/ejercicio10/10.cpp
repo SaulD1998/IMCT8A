@@ -22,7 +22,7 @@ return;
 }
 
 int main(){
-    cout<<"Ingrese la cantidad de múltiplos de 4 que desee"<<endl;
+    cout<<"Numero de multipos: "<<endl;
     ciclo();
 return 0;
 }

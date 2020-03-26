@@ -1,6 +1,6 @@
 #include <iostream>
-	using namespace std;
-	int main(){
+using namespace std;
+int main(){
 	int c;
 	float x;
 	float i;
